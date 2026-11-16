@@ -47,7 +47,7 @@ CentOS 7 最小化安装，全部检查项低于阈值。
 
 ![正常状态巡检输出](images/status-normal.png)
 
-*图 1 正常状态：`RESULT: OK`，`exit=0`。截图为终端回滚后的片段，`SYSTEM` / `MEMORY` / `DISK` 段在上方未截入。*
+*图 1 正常状态：`RESULT: OK`，`exit=0`。截图为终端回滚后的片段，顶部 `SYSTEM` / `MEMORY` 两段与 `DISK` 段前半未截入。*
 
 对应的文本输出：
 
@@ -94,7 +94,7 @@ RESULT: OK
 
 ![告警状态巡检输出](images/status-warning.png)
 
-*图 2 告警状态：`RESULT: CRIT`，`exit=2`，`Alerts:8` 全是 CRIT。日志名是 `alert_sim.log`——验证时跑的是改过阈值的副本，正式运行写 `alert.log`。*
+*图 2 告警状态：`RESULT: CRIT`，`exit=2`，`Alerts:8` 全是 CRIT。截图为终端回滚后的片段，顶部 `SYSTEM` / `MEMORY` 两段与 `DISK` 段前半未截入。日志名是 `alert_sim.log`——验证时跑的是改过阈值的副本，正式运行写 `alert.log`。*
 
 对应的文本输出：
 
