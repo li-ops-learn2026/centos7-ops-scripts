@@ -273,6 +273,7 @@ echo "exit=$?"
 - `images/`：README 引用的输出截图（`status-normal.png` 为图 1、`status-warning.png` 为图 2）
 - `.gitattributes`：强制 `*.sh` 用 LF 检出，避免 Windows 侧提交后带上 CRLF
 - `.gitignore`：忽略编辑器临时文件和运行产生的 `*.log`
+- `LICENSE`：MIT 许可
 
 ## ⚠️ 踩坑记录
 
